@@ -1,6 +1,6 @@
 cask "tauri-tickets" do
     version "0.6.1"
-    sha256 "436ea165b6b851c87f45869ea5d608caf43da31eeb7759cbfdb282d6078ec3f9"
+    sha256 "19cd19e3c293551d5edbcbfd8d3f49b9afd839b90996ab87611110645ea6f8e8"
   
     url "https://github.com/daniel-le97/tauri-ticket-manager/releases/download/v#{version}/tauri-tickets_x64.app.tar.gz"
     name "tauri-tickets"
