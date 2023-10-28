@@ -7,6 +7,13 @@ cask "tauri-tickets" do
     desc "a ticket/note manager made with tauri"
     homepage "https://github.com/daniel-le97/tauri-ticket-manager"
   
-    app "tauri-tickets_x64.app"
-  end
-  
+end
+
+
+app "tauri-tickets_x64.app"
+
+#   app "Warp.app"
+
+  zap trash: [
+    "~/Library/Application Support/com.tauri-tickets.dev/test.db"]
+end
